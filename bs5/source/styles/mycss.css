@@ -1,0 +1,93 @@
+@import url( https://fonts.googleapis.com/css?family=Poppins&display=swap);
+
+
+body {
+    font-family: Poppins,serif;
+    background: linear-gradient(100deg, #c641e7 50%, #3a2c2c 87%);
+}
+
+p {
+    color: white;
+}
+
+
+.nav-link {
+    color: #c641e7;
+ width: 50px;
+ margin: 0.5em;
+}
+
+.navbar-nav .nav-link.active {
+color: rgb(215, 223, 220);
+
+}
+
+.navbar-brand img {
+    width: 90px;
+}
+
+.navbar-toggler {
+    background-color: rgb(215, 223, 220);
+}
+
+.sidebar {
+    color: white;
+    background: linear-gradient(86deg, #3a2c2c 0%, #c641e7);
+
+}
+
+.card {
+    background: linear-gradient(86deg, #3a2c2c 0%,  #c641e7);
+    color: white;
+}
+
+.card a {
+    text-decoration: none;
+    color: white;
+}
+
+.slide-text {
+    color: white;
+    margin: auto auto;
+}
+
+.slide-text, .footer-text {
+    color: white;
+    margin: auto auto;
+}
+
+footer,
+.btn-outline-primary {
+    background: linear-gradient(86deg, #3a2c2c 0%, #c641e7);
+    
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.call-anim {
+    animation: coll 2s ease 0s infinite normal none;
+}
+
+@keyframes coll {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
